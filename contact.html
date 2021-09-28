@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Fitness club</title>
+</head>
+<style>
+    *{
+    box-sizing: content-box;
+
+    }
+    
+    body{
+        background-image: url('xxx.jpg');
+        background-size: 100%;
+        color: white;
+    }
+    header{
+        min-height: 30vh ;
+    }
+    section{
+        min-height: 60vh;
+        min-width: 50vh;
+    }
+    #main{
+        min-height: 30vh;
+        min-width: 50vh;
+        background-color: rgb(202, 183, 183);
+        color: black;
+    }
+
+    .left{
+        display: inline-block; 
+        padding: 10px;
+        margin: 10px;
+       
+        
+
+    }
+    .left h4{
+        font-weight: bold;
+        float: left;
+    }
+   .left img{
+    height:50px;
+    width: 50px;
+    border-radius: 50%;
+    float: left;
+  }
+ 
+  .mid{
+     
+      display: block;
+        text-align: center;
+        width: 45%;
+        margin: 20px auto;
+        position: absolute;
+        top: 2px;
+        left: 500px;
+    
+  }
+  .navbar{
+      overflow: auto;
+
+  }
+  .navbar a{
+     font-weight: bold;
+      float: left;
+      text-decoration: none;
+      color: white;
+      padding: 10px;
+      margin: 10px;
+      font-size: 20px;
+  }
+  .navbar a:hover{
+      color: red;
+  }
+  .right{
+        border: 2px solid white;
+        display: inline-block;
+        right: 30px;
+        top: 10px;
+        position: absolute;
+    }
+    details{
+        border-radius: 3px;
+        padding: 10px;
+    }
+    .info a{
+        color: white;
+        font-weight: bold;
+        text-decoration: none;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .info a:hover{
+
+        color: gray;
+    }
+    .touch{
+        font-weight: bolder;
+        font-size: 20px;
+        width: 30%;
+        margin: 45px auto;
+        text-align: center;
+    }
+    h1{
+        font-size: 40px ;
+        font-weight: bolder;
+        width: 30%;
+        margin: 45px auto;
+        text-align: center ;
+        text-shadow: 3px 3px 3px gray;
+    }
+    .formcontact{
+      
+        display:inline-block;
+      left: 350px;
+      position: absolute;
+      width: 27%;
+      margin:40px auto;
+      padding-top: 100spx;
+      border: 5px solid white;
+      padding: 20px;
+      border-radius: 10px;
+        
+    }
+    input[text="text"],
+    input[text="name"],
+    input[text="email"],
+    input[text="number"],
+    input[text="pincode"],
+    select,
+    textarea{
+        
+      font-weight: bold;
+      width: 70%;
+      font-size: 15px;
+      padding: 20px;
+      margin: 17px;
+      border: 2px solid gray;
+        
+
+        
+    }
+.formcontact p{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    margin: 10px;
+}
+.formcontact button{
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px;
+    margin: 10px;
+}
+.formcontact button:hover{
+    color: red;
+}
+
+    footer{
+      overflow: auto;
+      background-color: black;
+      min-width: 20vh;
+  }
+  footer a{
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      font-size: 20px;
+      padding: 40px;
+      margin: 25px;
+
+  }
+
+</style>
+<body>
+    <header>
+        <div class="left">
+            <img src="11.jpg" alt="" >
+            <h4>NANCY <br> Fitness Club</h4>
+            
+        </div>
+  
+        <div class="mid">
+             <nav class="navbar">
+                <a href="gym.html">HOME</a>
+                 <a href="contact.html">CONTACT US</a>
+                <a href="#">FITNESS CALCULATOR</a>
+                <a href="about.html">ABOUT US</a>
+             </nav>
+        </div>
+        <div class="right">
+            <details>
+                <ul class="info ">
+                    <li><a href="weight loss.html"> WEIGHT LOSS trainnng</a></li>
+                    <li> <a href="diet.html"> DIET PLAN</a></li>
+                    <li><a href="#"> OUR LOCATION</a></li>
+                    <li><a href="trainers.html"> TRAINNERS</a></li>
+                    <li><a href="#"> JOIN US</a></li>
+                </ul>
+                <summary>
+                    MORE INFORMATION
+        
+                </summary>
+            </details>    
+         </div>
+        
+    </header> 
+    <section id="main">
+       
+            <h1>GET IN TOUCH</h1>
+         <div class="touch" >
+            <h3>Got something to say?WE're all ears!</h3>
+            <h3>For all enquries ,including memembership,<br> accounts or trials , feel free to fill out the form <br> below or
+            hit us on social media! </h3>
+
+       </div>
+    </section>
+    <section>
+    <div class="formcontact">
+         
+          
+                    <p>Name : <input type="text" id="name" name="name" placeholder="Type here"></p>
+                    <p>Email id : <input type="email" id="email" name="email" placeholder="Eg : divyanka@gmail.com"></p>
+                    <p>Phone No. : <input type="number" id="number" name="number" placeholder="Eg : 977564534"></p>
+                    <p>Pin Code : <input type="number" id="pincode" name="pincode" placeholder="Eg : 673575"></p>
+                    <button>SUBMIT</button>
+         
+
+
+    </div>
+</section >
+
+
+</body>
+
+<footer>
+    <a href="#">FAQ</a>
+    <a href="#">Contact Us</a>
+    <a href="#">Terms of Use</a>
+    <a href="#">Privacy Policy</a>
+    <a href="#">Refund Policy</a>
+    <a href="#">&copy; 2021 | Fitness Club</a>
+</footer>
+
+
+</html>
